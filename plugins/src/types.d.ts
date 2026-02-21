@@ -258,7 +258,7 @@ interface Effect {
   /**
    * Set the window theme to light or dark.
    * 
-   * @since v1.0.1
+   * @since v1.1.0
    */
   setTheme: (theme: 'light' | 'dark') => void
 }
@@ -303,7 +303,7 @@ interface Pengu {
   /**
    * A boolean value that indicates whether the current platform is macOS.
    * 
-   * @since v1.1.0
+   * @since v1.1.2
    * @example
    * ```js
    * if (Pengu.isMac) {
@@ -611,7 +611,7 @@ declare interface Window {
   /**
    * Call this function to open the built-in Chrome DevTools window.
    * 
-   * @since v0.3
+   * @since v0.1
    * @example
    * ```js
    * window.openDevTools()     // built-in DevTools
@@ -625,7 +625,7 @@ declare interface Window {
    * 
    * If `path` is given, it will open the path with respect to the plugins folder.
    * 
-   * @since v1.0
+   * @since v0.6
    * @example
    * ```js
    * window.openPluginsFolder()
@@ -671,7 +671,7 @@ declare interface Window {
   /**
    * This property returns the current version of Pengu Loader.
    * 
-   * @since v0.6
+   * @since v1.0.1
    * @deprecated
    * @example
    * ```js
