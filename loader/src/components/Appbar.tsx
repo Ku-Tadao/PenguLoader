@@ -57,7 +57,7 @@ export const Appbar: Component<{
 
       <div class="flex items-center h-full text-foreground/60">
         <Show when={props.isHome}>
-          <Command onClick={() => setStore(true)} ref={useTippy('Plugin Store')}>
+          <Command onClick={() => setStore(true)} ref={useTippy('Plugin Hub')}>
             <StoreIcon size={15} />
           </Command>
           <Command onClick={settings.show} ref={useTippy('Settings')}>

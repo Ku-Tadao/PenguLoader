@@ -126,7 +126,7 @@ export const PluginGallery: Component = () => {
                 tabIndex={-1}
                 onClick={() => setStore(true)}
               >
-                <StoreIcon size={12} /> Plugin Store
+                <StoreIcon size={12} /> Plugin Hub
               </button>
             </div>
           </div>
